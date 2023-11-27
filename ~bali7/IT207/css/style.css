@@ -1,0 +1,173 @@
+/* Created by Basil Ali on 06/16/2023 for IT-207 / Lab Practice
+   CSS developed for homepage */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  margin: 0;
+}
+
+.row {  
+  display: flex;
+  flex-wrap: wrap;
+  margin: 1%;
+}
+
+.side {
+  flex: 10%;
+  background-color: #f1f1f1;
+  padding: 20px;
+  border-width: 5px;
+  border-color: black;
+  border-style: solid;
+}
+
+.main {
+  flex: 80%;
+  border-color: black;
+  border-width: 5px;
+  border-top-style: solid;
+  border-left-style: hidden;
+  border-right-style: solid;
+  border-bottom-style: solid;
+}
+
+.maintwo{
+	border-color: black;
+	border-width: 5px;
+	border-bottom-style: solid;
+}
+
+.maintwo > div{
+	display: flex;
+	flex-wrap: wrap;
+	padding: 10px;
+}
+
+.mainthree{
+	border-color: black;
+}
+
+.mainthree > div{
+	display: flex;
+	flex-wrap: wrap;
+	padding: 10px;
+}
+
+.mainfooter{
+	border-color: black;
+	border-bottom-style: hidden;
+	border-left-style: hidden;
+	border-right-style: hidden;
+	border-top-style: solid;
+	border-width: 5px;
+}
+
+.mainfooter > div{
+	padding: 5px;
+	text-align: center;
+}
+
+.box-1{
+	border-style: solid;
+	border-width: 1px;
+	border-color: black;
+	flex:1;
+}
+
+.box-5{
+	border-style: solid;
+	border-width: 1px;
+	border-color: black;
+	flex:1;
+}
+
+div.box-1 > * {
+	text-align: center;
+}
+
+.box-2{
+	border-top-style: solid;
+	border-left-style: hidden;
+	border-right-style: hidden;
+	border-bottom-style: hidden;
+	border-width: 1px;
+	border-color: black;
+	flex:1;
+}
+
+.box-2 > h2 {
+	text-align: center;
+}
+
+.box-2 > h3, .box-2 > li {
+	padding-left: 25px;
+}
+
+.box-2 > h3 {
+	text-decoration-line: underline;
+}
+
+.box-2 > li {
+	text-indent: 5%;
+}
+
+.box-3{
+	border-top-style: solid;
+	border-left-style: hidden;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-width: 1px;
+	border-color: black;
+	flex:1;
+}
+
+.box-3 > h2 {
+	text-align: center;
+}
+
+.box-3 > p {
+	padding: 10px;
+}
+
+.box-4{
+	border-top-style: solid;
+	border-left-style: hidden;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-width: 1px;
+	border-color: black;
+	flex:1;
+}
+
+div.box-4 > * {
+	text-align: center;
+}
+
+.h4{
+	text-align: center;
+}
+
+.h4 > li {
+	text-align: center;
+}
+
+img{
+	padding: 10px;
+	max-width: 30%;
+	height: auto;
+	border-radius: 10px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+  .row{   
+    flex-direction: column;
+  }
+}

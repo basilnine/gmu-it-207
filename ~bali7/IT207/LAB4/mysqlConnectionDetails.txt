@@ -1,0 +1,22 @@
+mysql pass: xNVBWsyd6!BnSMp
+
+
+GMU SQL
+
+helios.cec.gmu.edu
+
+user: bali7
+pass: meewheec
+
+
+$hostname = "helios.cec.gmu.edu";
+$username = "bali7";
+$password = "meewheec";
+$dbname = "bali7";
+$connection = mysqli_connect($hostname, $username, $password, $dbname);
+
+$hostname = "localhost";
+$username = "root";
+$password = "";
+$dbname = "lab4";
+$connection = mysqli_connect($hostname, $username, $password, $dbname);

@@ -1,0 +1,4 @@
+1. You can exit a switch statement using a(n) statement. (ch 2, p 114)/break/end/quit/complete
+2. Which of the following functions splits each character in a string into an array element? (ch 3, p 174)/str_split()/split()/explode()/implode()
+3. Which of the following functions removes the first element from the beginning of an array? (ch 6, p 366)/array_shift()/array_unshift()/array_push()/array_pop()
+
